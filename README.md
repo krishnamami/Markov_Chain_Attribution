@@ -48,3 +48,12 @@ Below screenshot displays transition probablities, for example probability of us
      * This project provided my team with foundational knowledge of Markov Chains and their practical application in marketing attribution.
      * We are currently applying similar principles to a new initiative focused on allocating web experimentation weights to conversions on the QuickenLoans.com website.
      * The goal is to identify which web experiments, in a multi-variant and feature experimentation setup, are positively influencing conversions—and which ones may be negatively impacting user behavior.
+ 
+How To Run
+-->Clone the repo: 
+
+git clone https://github.com/krishnamami/Distributed_ML_Sagemaker_Pipelines.git](https://github.com/krishnamami/Markov_Chain_Attribution.git
+
+-->pip install -r requirements.txt
+
+-->python markov_attribution_pipeline.py
