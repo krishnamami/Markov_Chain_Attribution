@@ -73,3 +73,5 @@ git clone https://github.com/krishnamami/Distributed_ML_Sagemaker_Pipelines.git]
 
 Author: Krishna Goud
  AI & Data Engineering Leader | Head of Data Engineering @ Rocket LA
+ 
+ [LinkedIn](https://www.linkedin.com/in/krishnagoud)
