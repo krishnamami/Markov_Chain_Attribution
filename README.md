@@ -1,14 +1,22 @@
 # Markov_Chain_Attribution
-A Python implementation of the Markov Chain Attribution Model for analyzing marketing channel effectiveness using customer journey data. This project helps quantify how each channel contributes to conversions by simulating the impact of removing them from the conversion path.
+This project implements a Markov Chain-based attribution model to quantify the impact of each marketing channel on conversions. Unlike traditional attribution models (first-touch, last-touch), this approach dynamically evaluates user journeys and assigns conversion credit based on probabilistic path analysis.
 
-## What is Markov?
-Unlike simple rule-based models such as first-touch or last-touch attribution, the Markov Attribution Model takes a probabilistic approach by analyzing entire user journeys.
+## Business Context
+In digital marketing, it’s crucial to understand which touchpoints (ads, channels, or web experiences) truly influence conversions. 
 
-It calculates the removal effect — the decrease in the overall conversion rate when a specific channel is removed from the path. This allows you to quantify each channel’s true influence on conversions by understanding how essential it is to the customer journey.
+## Example Use case we tried to solve
+For QuickenLoans.com, this model can help identify:
+- Which A/B test variants or SEO paths drive the most conversions.
 
-In short : "What happens to conversion performance if this channel didn’t exist?”
 
 ![image](https://github.com/user-attachments/assets/9ef05498-a215-425a-bbc9-ed08f651752e)
+
+## Tech Stack:
+
+- **Language**: Python  
+- **Libraries**: pandas, numpy, networkx, matplotlib  
+- **Model**: Markov Chain (Removal Effect Method)
+- **Visualization**: Channel importance and path diagrams
 
 ## Understanding Data:
 
@@ -48,7 +56,8 @@ Below screenshot displays transition probablities, for example probability of us
      * This project provided my team with foundational knowledge of Markov Chains and their practical application in marketing attribution.
      * We are currently applying similar principles to a new initiative focused on allocating web experimentation weights to conversions on the QuickenLoans.com website.
      * The goal is to identify which web experiments, in a multi-variant and feature experimentation setup, are positively influencing conversions—and which ones may be negatively impacting user behavior.
- 
+
+
 How To Run
 -->Clone the repo: 
 
@@ -57,3 +66,10 @@ git clone https://github.com/krishnamami/Distributed_ML_Sagemaker_Pipelines.git]
 -->pip install -r requirements.txt
 
 -->python markov_attribution_pipeline.py
+
+* Resources
+ [Markov Chain Methodology for Attribution – Medium Article](https://medium.com/data-science/marketing-channel-attribution-with-markov-chains-in-python-part-2-the-complete-walkthrough-733c65b23323)
+
+
+Author: Krishna Goud
+ AI & Data Engineering Leader | Head of Data Engineering @ Rocket LA
