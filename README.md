@@ -61,7 +61,7 @@ Below screenshot displays transition probablities, for example probability of us
 How To Run
 -->Clone the repo: 
 
-git clone [https://github.com/krishnamami/Markov_Chain_Attribution](https://github.com/krishnamami/Markov_Chain_Attribution.git)
+git clone [https://github.com/krishnamami/Markov_Chain_Attribution.git](https://github.com/krishnamami/Markov_Chain_Attribution.git)
 
 -->pip install -r requirements.txt
 
